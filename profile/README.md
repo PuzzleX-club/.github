@@ -2,12 +2,13 @@
 
 PuzzleX is an open-source marketplace infrastructure effort focused on reusable trading primitives, execution helpers, and reference application layers.
 
-We are opening the stack in stages. The core package is public today, while additional repositories will be released after their public boundaries are finalized.
+We are opening the stack in stages. The shared core package and the reference web application are public today, while additional repositories will be released after their public boundaries are finalized.
 
 ## Public now
 
 - [`puzzlex-core`](https://github.com/PuzzleX-club/puzzlex-core): Shared TypeScript core library for order management, match execution helpers, configuration validation, Merkle utilities, and WebSocket support
 - [`@puzzlex/core`](https://www.npmjs.com/package/@puzzlex/core): Public npm package for integrating the shared core library
+- [`puzzlex-web`](https://github.com/PuzzleX-club/puzzlex-web): Reference frontend implementation with explorer, analyzer, exchange-lite, and example-mode support
 
 ## Get started
 
@@ -28,9 +29,9 @@ We are publishing PuzzleX in layers instead of opening every repository at once.
 | Repository | Status | Purpose |
 | --- | --- | --- |
 | [`puzzlex-core`](https://github.com/PuzzleX-club/puzzlex-core) | Public | Shared library and npm package |
+| [`puzzlex-web`](https://github.com/PuzzleX-club/puzzlex-web) | Public | Reference web application |
 | `puzzlex-contracts` | Preparing | Smart contracts and protocol-facing components |
 | `puzzlex-api` | Preparing | Reference API service |
-| `puzzlex-web` | Preparing | Reference web application |
 
 ## Project focus
 
