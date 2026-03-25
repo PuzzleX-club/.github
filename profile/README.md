@@ -1,5 +1,7 @@
 # PuzzleX
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q61WM14D)
+
 PuzzleX is an open-source marketplace infrastructure effort focused on reusable trading primitives, execution helpers, reference services, and protocol-facing contracts.
 
 We are opening the stack in stages. The shared core package, reference web application, reference API service, and public contract surface are available today.
